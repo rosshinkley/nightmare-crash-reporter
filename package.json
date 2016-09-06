@@ -1,0 +1,37 @@
+{
+  "name": "nightmare-crash-reporter",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "./nightmare-crash-reporter.js",
+  "description": "Adds a crash reporter to NightmareJS",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rosshinkley/nightmare-crash-reporter.git"
+  },
+  "author": "Ross Hinkley",
+  "keywords": [
+    "nightmare",
+    "phantomjs",
+    "crash",
+    "crashreporter"
+  ],
+  "peerDependencies": {
+    "nightmare": "^2.6.0"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "multiparty": "^4.1.2",
+    "portscanner": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "express": "^4.13.3",
+    "mkdirp": "^0.5.1",
+    "mocha": "^2.3.0",
+    "rimraf": "^2.5.2",
+    "serve-static": "^1.11.1"
+  }
+}
